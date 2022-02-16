@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --dark-grey: #66768a;
+  --light-grey: #dbdfe2;
+}
