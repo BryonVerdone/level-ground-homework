@@ -8,6 +8,11 @@
   --dark-grey: #66768a;
   --light-grey: #dbdfe2;
 }
+/* 
+==========
+Header
+==========
+*/
 ul {
   list-style: none;
   padding: 1rem;
@@ -38,4 +43,29 @@ li {
   padding: 1rem;
   font-weight: bold;
   color: var(--dark-grey);
+}
+/* 
+==========
+Hero section
+==========
+*/
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  max-height: 540px;
+  background: var(--dark-grey);
+  color: white;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 2rem;
+}
+.hero-section p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.hero-text-container {
+  max-width: 720px;
 }
