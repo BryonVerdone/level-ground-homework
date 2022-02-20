@@ -69,3 +69,24 @@ Hero section
 .hero-text-container {
   max-width: 720px;
 }
+/* 
+==========
+why section
+==========
+*/
+.why-section {
+  padding: 4rem;
+  max-height: 540px;
+}
+.why-section h2 {
+  font-size: 2rem;
+}
+.why-section p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+.why-text-container {
+  max-width: 720px;
+  text-align: center;
+  margin: auto auto;
+}
