@@ -72,8 +72,8 @@ Hero section
 /* 
 ==========
 why section
-==========
-*/
+========== */
+
 .why-section {
   padding: 4rem;
   max-height: 540px;
@@ -89,4 +89,22 @@ why section
   max-width: 720px;
   text-align: center;
   margin: auto auto;
+}
+
+/*==========
+column section
+========== */
+.column-section {
+  max-height: 540px;
+  background: var(--light-grey);
+}
+.card {
+  width: 50%;
+}
+.card-img {
+  width: 100%;
+}
+.card-text {
+  text-align: center;
+  width: 50%;
 }
