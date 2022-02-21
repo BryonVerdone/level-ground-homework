@@ -118,6 +118,10 @@ column section
   text-align: center;
   width: 100%;
 }
+
+/*==========
+center text section
+========== */
 .btn {
   text-align: center;
   margin: 1rem;
@@ -125,4 +129,24 @@ column section
   font-weight: bold;
   padding: 0.75rem;
   border: 2px solid var(--dark-grey);
+}
+/*==========
+Footer
+========== */
+
+.footer {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  background: #161f2a;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+.container-right {
+  padding: 1rem;
+}
+.container-left {
+  padding: 1rem;
 }
