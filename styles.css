@@ -72,8 +72,8 @@ Hero section
 /* 
 ==========
 why section
-==========
-*/
+========== */
+
 .why-section {
   padding: 4rem;
   max-height: 540px;
@@ -89,4 +89,40 @@ why section
   max-width: 720px;
   text-align: center;
   margin: auto auto;
+}
+
+/*==========
+column section
+========== */
+.column-section {
+  max-height: 540px;
+  background: var(--light-grey);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  margin: 2rem;
+}
+.card-img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.card-text {
+  text-align: center;
+  width: 100%;
+}
+.btn {
+  text-align: center;
+  margin: 1rem;
+  color: black;
+  font-weight: bold;
+  padding: 0.75rem;
+  border: 2px solid var(--dark-grey);
 }
